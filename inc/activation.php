@@ -941,13 +941,13 @@ function dsi_create_pages_on_theme_activation() {
         ));
 
         wp_update_nav_menu_item($menu->term_id, 0, array(
-            'menu-item-title' => __('Ufficio Scolastico Territoriale', "design_scuole_italia"),
+            'menu-item-title' => __('Ambito Territoriale Provinciale', "design_scuole_italia"),
             'menu-item-url' => "#",
             'menu-item-status' => 'publish',
             'menu-item-type' => 'custom', // optional
             'menu-item-target' => '_blank',
             'menu-item-classes' => 'footer-link',
-            'menu-item-attr-title' => __('Ufficio Scolastico Territoriale - link esterno - apertura nuova scheda', "design_scuole_italia"),
+            'menu-item-attr-title' => __('Ambito Territoriale Provinciale - link esterno - apertura nuova scheda', "design_scuole_italia"),
         ));
 
         wp_update_nav_menu_item($menu->term_id, 0, array(
