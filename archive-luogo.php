@@ -69,7 +69,8 @@ $mappa_primo_piano = dsi_get_option("posizione_mappa", "luoghi") === 'true' ? tr
             }
 
             $locations = array_reverse($locations);
-            $first = $locations[0];
+            // $center_location = $locations[0];
+            $center_location = [ 41.11472299449022, 16.873344291740487 ];
         }
         ?>
         <script>
@@ -77,7 +78,7 @@ $mappa_primo_piano = dsi_get_option("posizione_mappa", "luoghi") === 'true' ? tr
                 var mymap = L.map('map', {
                     zoomControl: true,
                     scrollWheelZoom: false
-                }).setView([<?php echo $first[0]['lat'] ?>, <?php echo $first[0]['lng'] ?>], 13);
+                }).setView([<?php echo $center_location[0] ?>, <?php echo $center_location[1]  ?>], 15);
 
                 let marker;
                 <?php
@@ -112,7 +113,8 @@ $mappa_primo_piano = dsi_get_option("posizione_mappa", "luoghi") === 'true' ? tr
 
                 var arrayOfMarkers = [<?php echo implode(",", $markers); ?>];
                 var bounds = new L.LatLngBounds(arrayOfMarkers);
-                mymap.fitBounds(bounds);
+                // mymap.fitBounds(bounds);
+                mymap.setZoom(15)
             });
         </script><?php
                 } else {
