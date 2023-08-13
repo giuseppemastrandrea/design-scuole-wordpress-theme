@@ -36,8 +36,8 @@ get_header();
                     <section class="section <?php echo $classcolor; ?> py-5">
                         <div class="container">
                             <div class="title-section text-center mb-5">
-                                <h2 class="h4"><a
-                                            href="<?php echo get_permalink($struttura); ?>"><?php echo $struttura->post_title; ?></a>
+                                <h2 class="h4">
+                                    <a href="<?php echo get_permalink($struttura); ?>"><?php echo $struttura->post_title; ?></a>
                                 </h2>
                             </div><!-- /title-large -->
                             <?php if (is_array($responsabile) && count($responsabile) > 0) { ?>
