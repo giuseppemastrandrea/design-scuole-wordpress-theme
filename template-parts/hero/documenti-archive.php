@@ -5,7 +5,7 @@
             </svg>    </div>
     <div class="container">
         <div class="row variable-gutters">
-            <div class="col-md-5">
+            <div class="col-md">
                 <div class="hero-title text-left">
                     <?php the_archive_title( '<h1 class="p-0 mb-2">', '</h1>' ); ?>
                     <?php
@@ -14,7 +14,7 @@
                     add_filter( 'get_the_post_type_description', 'wpautop' );
                     ?>
                 </div><!-- /hero-title -->
-            </div><!-- /col-md-5 -->
+            </div><!-- /col-md -->
         </div><!-- /row -->
     </div><!-- /container -->
 </section><!-- /section -->

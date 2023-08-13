@@ -17,7 +17,7 @@ $testo_sezione_luoghi = dsi_get_option("testo_sezione_luoghi", "luoghi");
                     add_filter( 'get_the_post_type_description', 'wpautop' );
                     ?>
                 </div><!-- /hero-title -->
-            </div><!-- /col-md-5 -->
+            </div><!-- /col-12 -->
         </div><!-- /row -->
     </div><!-- /container -->
 </section><!-- /section -->

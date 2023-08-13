@@ -10,12 +10,12 @@ $testo_notizie = dsi_get_option("testo_notizie", "notizie");
         </div>
         <div class="container">
             <div class="row variable-gutters">
-                <div class="col-md-5">
+                <div class="col-md">
                     <div class="hero-title text-left">
                         <h1 class="p-0 mb-2"><?php the_title(); ?></h1>
                         <h2 class="h4 font-weight-normal"><?php echo $testo_notizie; ?></h2>
                     </div><!-- /hero-title -->
-                </div><!-- /col-md-5 -->
+                </div><!-- /col-md -->
             </div><!-- /row -->
         </div><!-- /container -->
     </section><!-- /section -->

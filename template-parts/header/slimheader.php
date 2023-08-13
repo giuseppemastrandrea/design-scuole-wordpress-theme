@@ -6,7 +6,8 @@
                     <strong>Ministero dell'Istruzione e del Merito</strong>
                 </a>
             </div><!-- /col-6 -->
-            <div class="col-4 header-utils-wrapper">
+            <?php /*
+            <div class="col-6 header-utils-wrapper">
                 <div class="header-utils">
                     <?php
                     if(!is_user_logged_in()) {
@@ -17,6 +18,8 @@
                     ?>
                 </div><!-- /header-utils -->
             </div><!-- /col-6 -->
+            */
+            ?>
         </div><!-- /row -->
     </div><!-- /container -->
 </div>

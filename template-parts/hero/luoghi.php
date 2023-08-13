@@ -8,12 +8,12 @@ $testo_sezione_luoghi = dsi_get_option("testo_sezione_luoghi", "luoghi");
             </svg>    </div>
     <div class="container">
         <div class="row variable-gutters">
-            <div class="col-md-5">
+            <div class="col-md">
                 <div class="hero-title text-left">
                     <h1 class="p-0 mb-2"><?php _e("I luoghi della Scuola", "design_scuole_italia"); ?></h1>
                     <p class="h4 font-weight-normal"><?php echo $testo_sezione_luoghi; ?></p>
                 </div><!-- /hero-title -->
-            </div><!-- /col-md-5 -->
+            </div><!-- /col-md -->
         </div><!-- /row -->
     </div><!-- /container -->
 </section><!-- /section -->
