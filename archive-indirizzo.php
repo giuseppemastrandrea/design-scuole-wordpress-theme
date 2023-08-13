@@ -17,13 +17,10 @@ if(is_post_type_archive("scheda_didattica")){
 get_header();
 ?>
 
-    <main id="main-container" class="main-container <?php echo $class; ?>>">
+    <main id="main-container" class="main-container <?php echo $class; ?> indirizzi-ns">
 		<?php get_template_part("template-parts/common/breadcrumb"); ?>
 
         <?php get_template_part("template-parts/hero/servizi", "archive"); ?>
-
-
-
 
         <section class="section bg-white border-top border-bottom d-block d-lg-none">
             <div class="container d-flex justify-content-between align-items-center py-3">
@@ -36,10 +33,17 @@ get_header();
         <section class="section bg-gray-light">
             <div class="container">
                 <div class="row variable-gutters sticky-sidebar-container">
+                    <?php
+                    /*
                     <div class="col-lg-3 bg-white bg-white-left">
 						<?php get_template_part("template-parts/search/filters", "indirizzi"); ?>
                     </div>
-                    <div class="col-lg-7 offset-lg-1 pt84">
+                    */
+                    ?>
+                    <div class="col-lg-12 pt32 pb32 bg-white">
+                        <?php get_template_part( 'template-parts/wysiwig/editorial', get_post_type() ); ?>
+                    </div>
+                    <div class="col-lg-12 pb84 bg-white courses">
 						<?php if ( have_posts() ) : ?>
 							<?php
 							/* Start the Loop */
