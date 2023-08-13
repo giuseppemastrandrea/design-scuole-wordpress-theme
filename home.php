@@ -32,6 +32,7 @@ get_header();
         <section class="section bg-white">
         <?php get_template_part("template-parts/hero/servizi"); ?>
         <?php get_template_part("template-parts/home/list", "servizi"); ?>
+        <?php get_template_part("template-parts/hero/video"); ?>
         </section>
             <?php
             $visualizzazione_didattica = dsi_get_option("visualizzazione_didattica", "didattica");
@@ -40,10 +41,11 @@ get_header();
             else if($visualizzazione_didattica == "indirizzi")
                 get_template_part("template-parts/home/didattica", "cicli-indirizzi");
 
-              get_template_part("template-parts/home/didattica", "risorse");
+            // get_template_part("template-parts/home/didattica", "risorse");
 
-//            get_template_part("template-parts/luogo/map");
-
+            // get_template_part("template-parts/luogo/map");
+            get_template_part("template-parts/home/didattica", "progetti");
+            
         endif; // End of the loop.
 		
 		
