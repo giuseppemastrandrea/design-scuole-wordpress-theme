@@ -9,7 +9,7 @@
 get_header();
 ?>
 
-    <main id="main-container" class="main-container">
+    <main id="main-container" class="main-container amministrazione-trasparente-ns">
 
         <?php get_template_part("template-parts/common/breadcrumb"); ?>
 

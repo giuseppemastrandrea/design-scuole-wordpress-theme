@@ -9,7 +9,7 @@ global $post;
 get_header();
 
 ?>
-    <main id="main-container" class="main-container bluelectric">
+    <main id="main-container" class="main-container bluelectric persone-ns">
         <?php get_template_part("template-parts/common/breadcrumb"); ?>
         <?php
         while ( have_posts() ) :

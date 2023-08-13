@@ -9,7 +9,7 @@ global $post, $tipologia_notizia, $ct;
 get_header();
 
 ?>
-	<main id="main-container" class="main-container greendark">
+	<main id="main-container" class="main-container greendark notizie-ns">
 		<?php get_template_part("template-parts/common/breadcrumb"); ?>
 		<?php
 		while ( have_posts() ) :

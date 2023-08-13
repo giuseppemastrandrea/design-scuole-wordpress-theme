@@ -11,7 +11,7 @@ get_header();
 $presentazione_landing_url = dsi_get_template_page_url("page-templates/presentazione.php");
 ?>
 
-    <main id="main-container" class="main-container">
+    <main id="main-container" class="main-container presentazione-ns">
         <?php get_template_part("template-parts/common/breadcrumb"); ?>
 
         <?php if ( have_posts() ) :
