@@ -3,15 +3,16 @@ global $progetto;
 
 ?>
 
-	<div class="card card-bg card-icon rounded">
+	<div class="card card-bg card-icon rounded  custom-card">
 		<a href="<?php echo get_permalink($progetto); ?>">
-			<div class="card-body">
-				<svg class="icon svg-marker-simple"  aria-hidden="true"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-project"></use></svg>
-				<div class="card-icon-content" id="card-desc-<?php echo $progetto->ID; ?>">
-					<p><strong><?php echo $progetto->post_title; ?></strong></p>
-					<small><?php  echo dsi_get_meta("descrizione" , '_dsi_scheda_progetto_', $progetto->ID); ?></small>
-				</div><!-- /card-icon-content -->
-			</div><!-- /card-body -->
-		</a>
+            <div class="img-wrapper" style="background-image: url(<?php echo get_the_post_thumbnail_url($progetto->ID) ?>)">
+            </div>
+            <div class="card-body">
+                <div class="card-icon-content" id="card-desc-<?php echo $progetto->ID; ?>">
+                    <h3><strong><?php echo $progetto->post_title; ?></strong></h3>
+                    <small><?php echo dsi_get_meta("sottotitolo", '_dsi_progetto_', $progetto->ID); ?></small>
+                </div><!-- /card-icon-content -->
+            </div><!-- /card-body -->
+        </a>
 	</div><!-- /card card-bg card-icon rounded -->
 <?php

@@ -37,7 +37,9 @@ $post = $progetto;
             </div>
             */ ?>
         </div>
+        <?php /*
         <div class="card-comments-wrapper mb-1">
             <?php get_template_part("template-parts/autore/card"); ?>
         </div><!-- /card-comments-wrapper -->
+        */ ?>
     </div><!-- /card -->

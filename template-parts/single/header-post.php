@@ -31,9 +31,13 @@ $autore = get_user_by("ID", $post->post_author);
                     <div class="card card-avatar card-comments">
                         <div class="card-body p-0">
                             <?php get_template_part("template-parts/autore/card"); ?>
+                            <?php
+                            /*
                             <div class="comments ml-auto">
                                 <p><?php echo $post->comment_count; ?></p>
                             </div><!-- /comments -->
+                            */
+                            ?>
                         </div><!-- /card-body -->
                     </div><!-- /card card-avatar -->
                 </div><!-- /col-md-6 -->
