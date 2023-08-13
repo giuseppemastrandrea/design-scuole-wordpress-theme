@@ -36,6 +36,11 @@
     max-height: 250px;
 }
 
+.home .card.custom-card {
+    min-height: auto;
+    max-height: 1000px;
+}
+
 .home .card-noicon {
     min-height: 100px;
     max-height: 100px;
