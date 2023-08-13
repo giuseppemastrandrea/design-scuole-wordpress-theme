@@ -47,7 +47,8 @@ if ($c) { ?>
 
             var arrayOfMarkers = [<?php foreach ($arr_luoghi as $marker) { ?>[<?php echo $marker["gps"]["lat"]; ?>, <?php echo $marker["gps"]["lng"]; ?>], <?php } ?>];
             var bounds = new L.LatLngBounds(arrayOfMarkers);
-            mymap.fitBounds(bounds);
+            // mymap.fitBounds(bounds);
+            mymap.setZoom(15)
         });
     </script>
 <?php } ?>
