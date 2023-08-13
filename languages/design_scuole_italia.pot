@@ -500,7 +500,7 @@ msgid "Ufficio Scolastico Regionale"
 msgstr ""
 
 #: inc/activation.php:880
-msgid "Ufficio Scolastico Territoriale"
+msgid "Ambito Territoriale Provinciale"
 msgstr ""
 
 #: inc/activation.php:888
