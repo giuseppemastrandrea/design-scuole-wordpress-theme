@@ -215,6 +215,8 @@ function dsi_schede_progetti_filters( $query ) {
         $query->set("orderby", "_dsi_scheda_progetto_is_realizzato");
         $query->set("order", "desc");
 
+        /*
+        14/08/23 update: get always all projects instead of current year projects
 
         if(isset($_GET["archive"]) && ($_GET["archive"] == "true")){
 
@@ -232,6 +234,7 @@ function dsi_schede_progetti_filters( $query ) {
                 )
             ));
         }else{
+        */
 
             $query->set( 'meta_query', array(
                 array(
@@ -242,7 +245,10 @@ function dsi_schede_progetti_filters( $query ) {
                 )
             ));
 
+        /*
+        14/08/23 update: get always all projects instead of current year projects
         }
+        */
     }
 }
 
