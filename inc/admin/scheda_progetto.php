@@ -7,8 +7,8 @@ function dsi_register_scheda_progetto_post_type() {
 
 	/** scheda **/
 	$labels = array(
-		'name'          => _x( 'Schede Progetti', 'Post Type General Name', 'design_scuole_italia' ),
-		'singular_name' => _x( 'Scheda Progetto', 'Post Type Singular Name', 'design_scuole_italia' ),
+		'name'          => _x( 'Progetti', 'Post Type General Name', 'design_scuole_italia' ),
+		'singular_name' => _x( 'Progetto', 'Post Type Singular Name', 'design_scuole_italia' ),
 		'add_new'       => _x( 'Aggiungi una Scheda', 'Post Type Singular Name', 'design_scuole_italia' ),
 		'add_new_item'  => _x( 'Aggiungi una nuova Scheda', 'Post Type Singular Name', 'design_scuole_italia' ),
         'edit_item'       => _x( 'Modifica la Scheda', 'Post Type Singular Name', 'design_scuole_italia' ),
@@ -27,7 +27,7 @@ function dsi_register_scheda_progetto_post_type() {
         'capability_type' => array('scheda_progetto', 'schede_progetto'),
         'rewrite' => array('slug' => 'scheda-progetto','with_front' => false),
         'map_meta_cap'    => true,
-        'description'    => __( "I progetti creati dai docenti della scuola e a disposizione di tutti.", 'design_scuole_italia' ),
+        'description'    => __( "Scopri i progetti didattici a disposizione degli studenti della nostra scuola.", 'design_scuole_italia' ),
 	);
 	register_post_type( 'scheda_progetto', $args );
 
