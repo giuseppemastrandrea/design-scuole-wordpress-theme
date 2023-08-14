@@ -104,7 +104,7 @@ if(is_search() || is_archive())
 
                                         ?>
                                         <li class="text-redbrown menu-dropdown-simple-wrapper">
-                                            <a class="toggle-dropdown toggle-dropdown-simple <?php echo $active_page == 'school' ? 'active' : ''?>" role="button" href="#" aria-expanded="false" id="mainNavDropdown1" title="Vai alla pagina: <?php _e("Scuola","design_scuole_italia"); ?>"><?php _e("Scuola","design_scuole_italia"); ?></a>
+                                            <a class="toggle-dropdown toggle-dropdown-simple <?php echo $active_page == 'school' ? 'active' : ''?>" role="button" href="#" aria-expanded="false" id="mainNavDropdown1-main" title="Vai alla pagina: <?php _e("Scuola","design_scuole_italia"); ?>"><?php _e("Scuola","design_scuole_italia"); ?></a>
                                             <?php wp_nav_menu(array(
                                                 "menu" => $menu_obj, 
                                                 "items_wrap" => $items_wrap,
