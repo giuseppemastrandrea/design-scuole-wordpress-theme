@@ -267,7 +267,7 @@ if(is_search() || is_archive())
                             <?php if($instagram = dsi_get_option( "instagram", "socials" )) :?><a class="ml-2" target="_blank" href="<?php echo $instagram; ?>" aria-label="instagram" title="vai alla pagina instagram"><svg class="icon it-social-instagram"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#it-social-instagram"></use></svg></a><?php endif; ?>
                             <?php if($twitter = dsi_get_option( "twitter", "socials" )) :?><a class="ml-2" target="_blank" href="<?php echo $twitter; ?>" aria-label="twitter" title="vai alla pagina twitter"><svg class="icon it-social-twitter"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#it-social-twitter"></use></svg></a><?php endif; ?>
                             <?php if($linkedin = dsi_get_option( "linkedin", "socials" )) :?><a class="ml-2" target="_blank" href="<?php echo $linkedin; ?>" aria-label="linkedin" title="vai alla pagina linkedin"><svg class="icon it-social-linkedin"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#it-social-linkedin"></use></svg></a><?php endif; ?>
-                            <a class="ml-2" href="https://www.tiktok.com/@ittpanettipitagora" target="_blank">
+                            <a aria-label="tiktok" title="vai alla pagina tiktok" class="ml-2" href="https://www.tiktok.com/@ittpanettipitagora" target="_blank">
                                 <svg class="svg-search">
                                     <use href="#svg-tiktok"></use>
                                 </svg>

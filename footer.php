@@ -73,7 +73,7 @@
                             <?php if($twitter = dsi_get_option( "twitter", "socials" )) :?><a class="ml-2" target="_blank" href="<?php echo $twitter; ?>" aria-label="twitter" title="vai alla pagina twitter"><svg class="icon it-social-twitter"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#it-social-twitter"></use></svg></a><?php endif; ?>
                             <?php if($linkedin = dsi_get_option( "linkedin", "socials" )) :?><a class="ml-2" target="_blank" href="<?php echo $linkedin; ?>" aria-label="linkedin" title="vai alla pagina linkedin"><svg class="icon it-social-linkedin"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#it-social-linkedin"></use></svg></a><?php endif; ?>
                             <?php if($telegram = dsi_get_option( "telegram", "socials" )) :?><a class="ml-2" target="_blank" href="<?php echo $telegram; ?>" aria-label="telegram" title="vai su Telegram"><svg class="icon it-social-telegram"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#it-social-telegram"></use></svg></a><?php endif; ?>
-                            <a class="ml-2" target="_blank" href="https://www.tiktok.com/@ittpanettipitagora">
+                            <a aria-label="tiktok" title="vai alla pagina Tiktok" class="ml-2" target="_blank" href="https://www.tiktok.com/@ittpanettipitagora">
                                 <svg class="svg-search">
                                     <use href="#svg-tiktok"></use>
                                 </svg>
