@@ -14,44 +14,6 @@ if($img_identita == ""){
 }
 ?><section id="section" class="section bg-redbrown section-hero-left">
     <div class="video-container">
-        <style>
-            #section{
-                position: relative;
-                min-height: 56.25vw;
-            }
-
-            #editorial{
-                position: relative;
-                z-index: 1000;
-            }
-
-            .video-container{
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-            }
-            .video-container::after{
-                content: "";
-                background: rgba(0, 0, 0, 0.5);
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                z-index: 100;
-            }
-
-            .video-container iframe {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                width: 100%;
-                min-height: 63.5vw; /* 56.25 * 1.2 */
-                transform: translate(-50%, -56%);
-            }
-        </style>
         <iframe 
             id="video-background" 
             src="https://www.youtube.com/embed/wqORCz1onFM?controls=0&autoplay=1&mute=1&playsinline=1&playlist=wqORCz1onFM&loop=1"
