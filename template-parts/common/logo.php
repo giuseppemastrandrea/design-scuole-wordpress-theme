@@ -1,4 +1,4 @@
-<a href="<?php echo home_url(); ?>" aria-label="Vai alla homepage" title="Vai alla homepage">
+<a href="<?php echo home_url(); ?>" aria-label="Istituto Tecnico Tecnologico Panetti Pitagora" title="Istituto Tecnico Tecnologico Panetti Pitagora">
 <?php
 if (dsi_get_option("stemma_scuola") && (empty($args['ignora_stemma_scuola']) || $args['ignora_stemma_scuola'] == false)) {
 ?>
