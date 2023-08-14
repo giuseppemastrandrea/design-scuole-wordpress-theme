@@ -16,6 +16,7 @@ if($img_identita == ""){
     <div class="video-container">
         <iframe 
             id="video-background" 
+            title="Video Background ITT Panetti Pitagora"
             src="https://www.youtube.com/embed/wqORCz1onFM?controls=0&autoplay=1&mute=1&playsinline=1&playlist=wqORCz1onFM&loop=1"
             frameborder="0" 
             allowfullscreen>
