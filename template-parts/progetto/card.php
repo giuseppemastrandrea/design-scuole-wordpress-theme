@@ -3,7 +3,7 @@ global $progetto;
 
 ?>
 
-	<div class="card card-bg card-icon rounded  custom-card">
+	<div class="card card-bg card-icon rounded custom-card mb-2">
 		<a href="<?php echo get_permalink($progetto); ?>">
             <div class="img-wrapper" style="background-image: url(<?php echo get_the_post_thumbnail_url($progetto->ID) ?>)">
             </div>
