@@ -29,6 +29,7 @@ $autore = get_user_by("ID", $post->post_author);
                         <p class="mb-0"><?php echo dsi_get_meta("descrizione"); ?></p>
                     </div><!-- /title-content -->
                     <div class="card card-avatar card-comments">
+                        <?php /*
                         <div class="card-body p-0">
                             <?php get_template_part("template-parts/autore/card"); ?>
                             <?php if(dsi_get_option("show_contatore_commenti", "setup") != "false") { ?>
@@ -38,6 +39,7 @@ $autore = get_user_by("ID", $post->post_author);
                             </div>
 		                    <?php } ?>                            
                         </div><!-- /card-body -->
+                        */ ?>
                     </div><!-- /card card-avatar -->
                 </div><!-- /col-md-6 -->
             </div><!-- /row -->
