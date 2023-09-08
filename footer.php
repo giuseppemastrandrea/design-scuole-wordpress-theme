@@ -13,7 +13,10 @@
     <div class="container">
         <div class="row variable-gutters mb-5">
             <div class="col logos-wrapper">
-                <img class="ue-logo"
+                <img
+                    width=178
+                    height=56 
+                    class="ue-logo"
                     src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/logo-eu-inverted.svg' ); ?>"
                     alt="Finanziato dall' Unione Europea - Next generation EU"
                 >
