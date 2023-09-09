@@ -72,7 +72,7 @@
 									</div>
 									<?php } */ ?>
                                     <div class="custom-control custom-submit-primary">
-									    <button type="submit" class="custom-control-submit <?php if(isset($_GET["type"]) && $_GET["type"] == "any") echo "checked"; ?>" id="tutto" name="type" value="any"><?php _e("Cerca in <strong class='text-uppercase text-small-bold'>tutto il sito</strong>","design_scuole_italia"); ?></button>
+									    <button type="submit" data-element="search-submit" class="custom-control-submit <?php if(isset($_GET["type"]) && $_GET["type"] == "any") echo "checked"; ?>" id="tutto" name="type" value="any"><?php _e("Cerca in <strong class='text-uppercase text-small-bold'>tutto il sito</strong>","design_scuole_italia"); ?></button>
                                     </div>
 								</div>
 							</div>
