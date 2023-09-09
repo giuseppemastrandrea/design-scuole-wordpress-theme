@@ -97,9 +97,9 @@ if(is_search() || is_archive())
                                         $menu_obj = get_term( $theme_locations[$theme_location], 'nav_menu' );
                                     if(isset($menu_obj) && !is_wp_error($menu_obj)) {
                                         $landing_url = dsi_get_template_page_url("page-templates/la-scuola.php");
-                                        // if($landing_url)
-                                        //    $items_wrap = '<ul  aria-labelledby="mainNavDropdown1" data-element="school-submenu" class="%2$s"><li class="menu-title" ><div class="h3"><a href="'.$landing_url.'">'.__("Panoramica", "design_scuole_italia").'</a></div></li>%3$s</ul>';
-                                        // else
+                                        if($landing_url)
+                                            $items_wrap = '<ul  aria-labelledby="mainNavDropdown1" data-element="school-submenu" class="%2$s"><li class="menu-title" ><div class="h3"><a href="'.$landing_url.'">'.__("Panoramica", "design_scuole_italia").'</a></div></li>%3$s</ul>';
+                                        else
                                         $items_wrap = '<ul  aria-labelledby="mainNavDropdown1" data-element="school-submenu" class="%2$s">%3$s</ul>';
 
                                         ?>
@@ -126,9 +126,9 @@ if(is_search() || is_archive())
                                         $menu_obj = get_term( $theme_locations[$theme_location], 'nav_menu' );
                                     if(isset($menu_obj) && !is_wp_error($menu_obj)) {
                                         $landing_url = dsi_get_template_page_url("page-templates/servizi.php");
-                                        // if($landing_url)
-                                        //     $items_wrap = '<ul  aria-labelledby="mainNavDropdown2" id="%1$s" class="%2$s"><li class="menu-title" ><div class="h3"><a href="'.$landing_url.'">'.__("Panoramica", "design_scuole_italia").'</a></div></li>%3$s</ul>';
-                                        // else
+                                        if($landing_url)
+                                            $items_wrap = '<ul  aria-labelledby="mainNavDropdown2" id="%1$s" class="%2$s"><li class="menu-title" ><div class="h3"><a href="'.$landing_url.'">'.__("Panoramica", "design_scuole_italia").'</a></div></li>%3$s</ul>';
+                                        else
                                         $items_wrap = '<ul  aria-labelledby="mainNavDropdown2" id="%1$s" class="%2$s">%3$s</ul>';
 
                                         ?>
@@ -156,9 +156,9 @@ if(is_search() || is_archive())
                                         $menu_obj = get_term( $theme_locations[$theme_location], 'nav_menu' );
                                     if(isset($menu_obj) && !is_wp_error($menu_obj)) {
                                         $landing_url = dsi_get_template_page_url("page-templates/notizie.php");
-                                        //if($landing_url)
-                                        //    $items_wrap = '<ul  aria-labelledby="mainNavDropdown3" id="%1$s" class="%2$s"><li class="menu-title" ><div class="h3"><a href="'.$landing_url.'">'.__("Panoramica", "design_scuole_italia").'</a></div></li>%3$s</ul>';
-                                        //else
+                                        if($landing_url)
+                                            $items_wrap = '<ul  aria-labelledby="mainNavDropdown3" id="%1$s" class="%2$s"><li class="menu-title" ><div class="h3"><a href="'.$landing_url.'">'.__("Panoramica", "design_scuole_italia").'</a></div></li>%3$s</ul>';
+                                        else
                                         $items_wrap = '<ul  aria-labelledby="mainNavDropdown3" id="%1$s" class="%2$s">%3$s</ul>';
 
                                         ?>
@@ -185,9 +185,9 @@ if(is_search() || is_archive())
                                         $menu_obj = get_term( $theme_locations[$theme_location], 'nav_menu' );
                                     if(isset($menu_obj) && !is_wp_error($menu_obj)) {
                                         $landing_url = dsi_get_template_page_url("page-templates/didattica.php");
-                                        //if($landing_url)
-                                        //    $items_wrap = '<ul  aria-labelledby="mainNavDropdown4" id="%1$s" class="%2$s"><li class="menu-title" ><div class="h3"><a href="'.$landing_url.'">'.__("Panoramica", "design_scuole_italia").'</a></div></li>%3$s</ul>';
-                                        //else
+                                        if($landing_url)
+                                            $items_wrap = '<ul  aria-labelledby="mainNavDropdown4" id="%1$s" class="%2$s"><li class="menu-title" ><div class="h3"><a href="'.$landing_url.'">'.__("Panoramica", "design_scuole_italia").'</a></div></li>%3$s</ul>';
+                                        else
                                         $items_wrap = '<ul  aria-labelledby="mainNavDropdown4" id="%1$s" class="%2$s">%3$s</ul>';
 
                                         ?>
@@ -294,9 +294,9 @@ if(is_search() || is_archive())
                                     $menu_obj = get_term( $theme_locations[$theme_location], 'nav_menu' );
                                 if(isset($menu_obj) && !is_wp_error($menu_obj)) {
                                     $landing_url = dsi_get_template_page_url("page-templates/la-scuola.php");
-                                    // if($landing_url)
-                                    //     $items_wrap = '<ul class="%2$s" data-element="school-submenu"><li class="menu-title" ><div class="h3"><a class="list-item" href="'.$landing_url.'">'.__("Panoramica", "design_scuole_italia").'</a></div></li>%3$s</ul>';
-                                    // else
+                                    if($landing_url)
+                                        $items_wrap = '<ul class="%2$s" data-element="school-submenu"><li class="menu-title" ><div class="h3"><a class="list-item" href="'.$landing_url.'">'.__("Panoramica", "design_scuole_italia").'</a></div></li>%3$s</ul>';
+                                    else
                                     $items_wrap = '<ul class="%2$s" data-element="school-submenu">%3$s</ul>';
 
                                     ?>
@@ -327,10 +327,10 @@ if(is_search() || is_archive())
                                     $menu_obj = get_term( $theme_locations[$theme_location], 'nav_menu' );
                                 if(isset($menu_obj) && !is_wp_error($menu_obj)) {
                                     $landing_url = dsi_get_template_page_url("page-templates/servizi.php");
-                                    // if($landing_url)
-                                    //    $items_wrap = '<ul class="%2$s"><li class="menu-title" ><div class="h3"><a class="list-item" href="'.$landing_url.'">'.__("Panoramica", "design_scuole_italia").'</a></div></li>%3$s</ul>';
-                                    //else
-                                    $items_wrap = '<ul class="%2$s">%3$s</ul>';
+                                    if($landing_url)
+                                       $items_wrap = '<ul class="%2$s"><li class="menu-title" ><div class="h3"><a class="list-item" href="'.$landing_url.'">'.__("Panoramica", "design_scuole_italia").'</a></div></li>%3$s</ul>';
+                                    else
+                                        $items_wrap = '<ul class="%2$s">%3$s</ul>';
 
                                     ?>
                                     <li class="text-purplelight menu-dropdown-simple-wrapper">
@@ -361,9 +361,9 @@ if(is_search() || is_archive())
                                     $menu_obj = get_term( $theme_locations[$theme_location], 'nav_menu' );
                                 if(isset($menu_obj) && !is_wp_error($menu_obj)) {
                                     $landing_url = dsi_get_template_page_url("page-templates/notizie.php");
-                                    // if($landing_url)
-                                    //     $items_wrap = '<ul class="%2$s"><li class="menu-title" ><div class="h3"><a class="list-item" href="'.$landing_url.'">'.__("Panoramica", "design_scuole_italia").'</a></div></li>%3$s</ul>';
-                                    // else
+                                    if($landing_url)
+                                        $items_wrap = '<ul class="%2$s"><li class="menu-title" ><div class="h3"><a class="list-item" href="'.$landing_url.'">'.__("Panoramica", "design_scuole_italia").'</a></div></li>%3$s</ul>';
+                                    else
                                     $items_wrap = '<ul class="%2$s">%3$s</ul>';
 
                                     ?>
@@ -394,9 +394,9 @@ if(is_search() || is_archive())
                                     $menu_obj = get_term( $theme_locations[$theme_location], 'nav_menu' );
                                 if(isset($menu_obj) && !is_wp_error($menu_obj)) {
                                     $landing_url = dsi_get_template_page_url("page-templates/didattica.php");
-                                    // if($landing_url)
-                                    //     $items_wrap = '<ul class="%2$s"><li class="menu-title" ><div class="h3"><a class="list-item" href="'.$landing_url.'">'.__("Panoramica", "design_scuole_italia").'</a></div></li>%3$s</ul>';
-                                    // else
+                                    if($landing_url)
+                                        $items_wrap = '<ul class="%2$s"><li class="menu-title" ><div class="h3"><a class="list-item" href="'.$landing_url.'">'.__("Panoramica", "design_scuole_italia").'</a></div></li>%3$s</ul>';
+                                    else
                                     $items_wrap = '<ul class="%2$s">%3$s</ul>';
 
                                     ?>
