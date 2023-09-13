@@ -10,7 +10,7 @@ global $post;
                 <span class="day"><?php echo date_i18n("d", strtotime($post->post_date)); ?></span>
                 <span class="month"><?php echo date_i18n("M", strtotime($post->post_date)); ?></span>
             </div>
-            <div class="img-wrapper" style="background-image: url(<?php echo get_the_post_thumbnail_url($post->ID) != null ? get_the_post_thumbnail_url($post->ID) : "/wp-content/uploads/2023/09/logotipo3-scaled.webp" ?>);">
+            <div class="img-wrapper <?php echo get_the_post_thumbnail_url($post->ID) != null ? "" : "no-thumb" ?>" style="background-image: url(<?php echo get_the_post_thumbnail_url($post->ID) != null ? get_the_post_thumbnail_url($post->ID) : "/wp-content/uploads/2023/09/logotipo3-scaled.webp" ?>);">
             </div>
             <div class="card-body">
                 <div class="card-icon-content" id="card-desc-<?php echo $post->ID; ?>">
