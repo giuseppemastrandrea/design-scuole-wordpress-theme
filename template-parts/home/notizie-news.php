@@ -16,17 +16,32 @@ if($ct%2)
 			<div class="splide__track">
 				<ul class="splide__list">
 					<?php
-					$args = array('post_type' => 'notizie',
-								'posts_per_page' => 3,
-					);
-					$posts = get_posts($args);
-					foreach ($posts as $post){ ?>				
-					<li class="splide__slide">
-						<div class="it-single-slide-wrapper">
-							<?php get_template_part("template-parts/news/card", "vertical-thumb"); ?>
-						</div>
-					</li>
-					<?php } ?>
+						$tipologie_notizie = dsi_get_option("tipologie_notizie", "notizie");
+						$ct=1;
+						if(is_array($tipologie_notizie) && count($tipologie_notizie)){
+							foreach ( $tipologie_notizie as $id_tipologia_notizia ) {
+								$tipologia_notizia = get_term_by("id", $id_tipologia_notizia, "tipologia-articolo");
+								$args = array('post_type' => 'post',
+									'posts_per_page' => 9,
+												'tax_query' => array(
+													array(
+														'taxonomy' => 'tipologia-articolo',
+														'field' => 'term_id',
+														'terms' => $tipologia_notizia->term_id,
+													),
+												),
+								);
+								$posts = get_posts($args);
+								foreach ($posts as $post){ ?>				
+								<li class="splide__slide">
+									<div class="it-single-slide-wrapper">
+										<?php get_template_part("template-parts/news/card", "vertical-thumb"); ?>
+									</div>
+								</li>
+								<?php } 
+							}
+						}
+					?>
 				</ul>
 			</div>
 		</div><!-- /carousel-large -->
