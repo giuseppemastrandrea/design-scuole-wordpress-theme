@@ -22,7 +22,7 @@ if($ct%2)
 							foreach ( $tipologie_notizie as $id_tipologia_notizia ) {
 								$tipologia_notizia = get_term_by("id", $id_tipologia_notizia, "tipologia-articolo");
 								$args = array('post_type' => 'post',
-									'posts_per_page' => 9,
+									'posts_per_page' => 3,
 												'tax_query' => array(
 													array(
 														'taxonomy' => 'tipologia-articolo',
