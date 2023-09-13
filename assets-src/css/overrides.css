@@ -266,6 +266,40 @@
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, rgba(55, 54, 64, 0.9) 100%)
 }
 
+.custom-card .date {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 84px;
+    height: 90px;
+    background-color: #51758d;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custom-card .date .day {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.custom-card .date .year {
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.88rem;
+    font-weight: 700;
+}
+
+.custom-card .date .month {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
 .article-description.wysiwig-text {
     text-align: justify;
 }
