@@ -262,6 +262,9 @@
     font-size: 1rem;
 }
 
+.custom-card.home-news-card .img-wrapper:after {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, rgba(55, 54, 64, 0.9) 100%)
+}
 
 .article-description.wysiwig-text {
     text-align: justify;

@@ -33,6 +33,7 @@ get_header();
         <?php get_template_part("template-parts/hero/servizi"); ?>
         <?php get_template_part("template-parts/home/list", "servizi"); ?>
         <?php get_template_part("template-parts/hero/video"); ?>
+        <?php get_template_part("template-parts/home/notizie-news"); ?>
         </section>
             <?php
             $visualizzazione_didattica = dsi_get_option("visualizzazione_didattica", "didattica");
