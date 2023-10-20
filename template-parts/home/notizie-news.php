@@ -46,7 +46,7 @@ if($ct%2)
 			</div>
 		</div><!-- /carousel-large -->
 		<div class="pt-3 text-center">
-			<a class="text-underline" href="/tipologia-articolo/notizie"><strong>Vedi tutti</strong></a>
+			<a class="text-underline" href="/tipologia-articolo/notizie"><strong>Vai alle news</strong></a>
 		</div>
 	</div><!-- /container -->
 </section><!-- /section -->
