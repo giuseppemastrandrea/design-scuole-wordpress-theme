@@ -4,7 +4,7 @@ global $post;
 $img_identita = dsi_get_option("immagine", "la_scuola");
 //$id_scuola_principale = dsi_get_option("scuola_principale", "homepage");
 $landing_url = dsi_get_template_page_url("page-templates/la-scuola.php");
-$orientamento_url = '/orientamento-in-ingresso';
+$orientamento_url = '/orientamento';
 $colid=12;
 $showimage = true;
 if($img_identita == ""){
