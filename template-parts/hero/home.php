@@ -30,7 +30,7 @@ if($img_identita == ""){
                     <h1><span class="d-line d-xl-block"><?php echo dsi_get_option("nome_scuola"); ?></span> </h1>
                     <h2 class="text-white font-weight-normal h3"><?php echo dsi_get_option("luogo_scuola"); ?></h2>
                     <?php if($orientamento_url){ ?>
-                        <a class="btn btn-md btn-outline-white mt-4" href="<?php echo $orientamento_url; ?>" aria-label="Orientamento in ingresso"><?php _e("Orientamento in ingresso", "design_scuole_italia"); ?></a>
+                        <a class="btn btn-lg btn-outline-white mt-4" href="<?php echo $orientamento_url; ?>" aria-label="Orientamento in ingresso"><?php _e("Orientamento in ingresso", "design_scuole_italia"); ?></a>
                     <?php } ?>
                     
 
