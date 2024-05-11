@@ -4,7 +4,7 @@ global $post;
 $img_identita = dsi_get_option("immagine", "la_scuola");
 //$id_scuola_principale = dsi_get_option("scuola_principale", "homepage");
 $landing_url = dsi_get_template_page_url("page-templates/la-scuola.php");
-$orientamento_url = '/orientamento';
+$hero_url = '/esami-di-stato';
 $colid=12;
 $showimage = true;
 if($img_identita == ""){
@@ -29,8 +29,8 @@ if($img_identita == ""){
                     <div class="text-white font-weight-normal h4"><?php echo dsi_get_option("tipologia_scuola"); ?> </div>
                     <h1><span class="d-line d-xl-block"><?php echo dsi_get_option("nome_scuola"); ?></span> </h1>
                     <h2 class="text-white font-weight-normal h3"><?php echo dsi_get_option("luogo_scuola"); ?></h2>
-                    <?php if($orientamento_url){ ?>
-                        <a class="btn btn-lg btn-outline-white mt-4" href="<?php echo $orientamento_url; ?>" aria-label="Orientamento in ingresso"><?php _e("Orientamento in ingresso", "design_scuole_italia"); ?></a>
+                    <?php if($hero_url){ ?>
+                        <a class="btn btn-lg btn-outline-white mt-4" href="<?php echo $hero_url; ?>" aria-label="Esami di stato"><?php _e("Esami di stato", "design_scuole_italia"); ?></a>
                     <?php } ?>
                     
 
