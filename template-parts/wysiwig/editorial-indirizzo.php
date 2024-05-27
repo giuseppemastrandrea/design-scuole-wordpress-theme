@@ -17,7 +17,3 @@ if(!$excerpt)
 <p class="presentation-card-link" href="<?php the_permalink(); ?>">
 I corsi di studio dell'Istituto Panetti Pitagora di Bari sono interamente focalizzati sulle discipline tecniche, offrendo agli studenti un percorso formativo di eccellenza nel settore tecnologico. Con una combinazione equilibrata di conoscenze teoriche e competenze pratiche, i nostri corsi preparano gli studenti per le sfide del mondo universitario e professionale, fornendo loro una solida base di apprendimento e un'esperienza pratica significativa. Grazie a docenti qualificati e laboratori all'avanguardia, gli studenti avranno l'opportunità di sviluppare le competenze necessarie per eccellere nei settori dell'informatica, dell'elettronica, dell'elettrotecnica, della chimica e dei materiali. Il nostro obiettivo è quello di formare professionisti altamente qualificati e preparati a cogliere le opportunità nel mondo tecnologico in rapida evoluzione.
 </p>
-
-<p>
-    Nel <strong>Biennio comune</strong>
-</p>
