@@ -252,6 +252,8 @@ function dsi_scripts() {
 
 	wp_enqueue_script( 'dsi-scuole-js', get_template_directory_uri() . '/assets/js/scuole.js', array(), false, true);
 
+	wp_enqueue_script( 'dsi-overrides', get_template_directory_uri() . '/assets-src/js/analytics.js', array(), false, true);
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
