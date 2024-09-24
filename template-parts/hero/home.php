@@ -4,7 +4,8 @@ global $post;
 $img_identita = dsi_get_option("immagine", "la_scuola");
 //$id_scuola_principale = dsi_get_option("scuola_principale", "homepage");
 $landing_url = dsi_get_template_page_url("page-templates/la-scuola.php");
-$hero_url = '/orario-scolastico-fino-al-21-09-2024/';
+// $hero_url = '/orario-scolastico-fino-al-21-09-2024/';
+$hero_url = null;
 $colid=12;
 $showimage = true;
 if($img_identita == ""){
