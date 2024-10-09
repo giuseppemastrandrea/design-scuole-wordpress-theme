@@ -32,7 +32,7 @@ if($img_identita == ""){
                     <h1><span class="d-line d-xl-block"><?php echo dsi_get_option("nome_scuola"); ?></span> </h1>
                     <h2 class="text-white font-weight-normal h3"><?php echo dsi_get_option("luogo_scuola"); ?></h2>
                     <?php if($hero_url){ ?>
-                        <a class="btn btn-lg btn-outline-white mt-4" href="<?php echo $hero_url; ?>" aria-label="Orario scolastico fino al 21/09/2024"><?php _e("Orario scolastico fino al 21/09/2024", "design_scuole_italia"); ?></a>
+                        <a class="btn btn-lg btn-outline-white mt-4" href="<?php echo $hero_url; ?>" aria-label="Orientamento in ingresso"><?php _e("Orientamento in ingresso", "design_scuole_italia"); ?></a>
                     <?php } ?>
                     
 
