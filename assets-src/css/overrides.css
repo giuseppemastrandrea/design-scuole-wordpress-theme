@@ -339,3 +339,14 @@
 .footer-wrapper {
     animation: color 90s infinite linear;
 }
+
+
+#xmas {
+    margin: 50px;
+    position: relative;
+}
+
+#main-container {
+    position: relative;
+    z-index: 1;
+}
