@@ -15,22 +15,7 @@ if($img_identita == ""){
     $showimage = false;
 }
 ?>
-<section id="xmas">
-    <div class="container" id="editorial">
-        <div class="row variable-gutters">
-            <div class="col-md-10 offset-md-1">
-                <div class="hero-title text-center">
-                    <figure>
-                        <img 
-                            src="https://www.panettipitagora.edu.it/wp/wp-content/uploads/2024/12/Auguri-Natale-2024-sito.webp" 
-                            alt="Auguri di buone feste dalla Dirigente Scolastica Laura Castellana"
-                            style="width:100%">
-                    </figure>
-                </div><!-- /hero-title -->
-            </div><!-- /col-md-6 -->
-        </div><!-- /row -->
-    </div><!-- /container -->
-</section>
+
 <section id="section" class="section bg-redbrown section-hero-left">
     <div class="video-container">
         <iframe 
