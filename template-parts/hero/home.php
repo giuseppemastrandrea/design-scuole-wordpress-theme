@@ -6,7 +6,7 @@ $img_identita = dsi_get_option("immagine", "la_scuola");
 $landing_url = dsi_get_template_page_url("page-templates/la-scuola.php");
 
 // $hero_url = null;
-$hero_url = '/scheda-progetto/arduino-day-2025/';
+$hero_url = '/orientamento/';
 $colid=12;
 $showimage = true;
 if($img_identita == ""){
@@ -34,7 +34,7 @@ if($img_identita == ""){
                     <h1><span class="d-line d-xl-block"><?php echo dsi_get_option("nome_scuola"); ?></span> </h1>
                     <h2 class="text-white font-weight-normal h3"><?php echo dsi_get_option("luogo_scuola"); ?></h2>
                     <?php if($hero_url){ ?>
-                        <a class="btn btn-lg btn-outline-white mt-4" href="<?php echo $hero_url; ?>" aria-label="Arduino Day 2025"><?php _e("Arduino Day 2025", "design_scuole_italia"); ?></a>
+                        <a class="btn btn-lg btn-outline-white mt-4" href="<?php echo $hero_url; ?>" aria-label="Orientamento in ingresso"><?php _e("Orientamento in ingresso", "design_scuole_italia"); ?></a>
                     <?php } ?>
                     
 
