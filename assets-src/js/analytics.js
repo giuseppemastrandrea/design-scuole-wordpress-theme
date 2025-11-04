@@ -3,9 +3,6 @@ var _paq = window._paq = window._paq || [];
 // 🔹 Configurazione campagna (obbligatoria per far leggere i parametri mtm_)
 _paq.push(['setCampaignNameKey', 'mtm_campaign']);
 _paq.push(['setCampaignKeywordKey', 'mtm_keyword']);
-_paq.push(['setCampaignSourceKey', 'mtm_source']);
-_paq.push(['setCampaignMediumKey', 'mtm_medium']);
-_paq.push(['setCampaignContentKey', 'mtm_content']);
 
 // 🔹 Tracciamento standard
 _paq.push(['trackPageView']);
