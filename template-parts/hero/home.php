@@ -6,7 +6,7 @@ $img_identita = dsi_get_option("immagine", "la_scuola");
 $landing_url = dsi_get_template_page_url("page-templates/la-scuola.php");
 
 // $hero_url = null;
-$hero_url = '/orientamento/';
+$hero_url = '/la-scuola/orientamento/';
 $colid=12;
 $showimage = true;
 if($img_identita == ""){
